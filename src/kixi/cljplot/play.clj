@@ -1,8 +1,4 @@
-(ns kixi.cljplot.play
-  (:require [nextjournal.clerk :as clerk]
-            ;; [tablecloth.api :as tc]
-            [nextjournal.clerk.viewer :as v]
-            ))
+(ns kixi.cljplot.play)
 
 (+ 35 7)
 
