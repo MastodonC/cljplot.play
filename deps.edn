@@ -1,0 +1,10 @@
+{:paths ["src" "resources"]
+ :deps  {org.clojure/clojure         {:mvn/version "1.11.1"}
+         io.github.nextjournal/clerk {:mvn/version "0.9.513"}}
+ :aliases
+ {:jdk-17
+  {:jvm-opts ["-XX:-OmitStackTraceInFastThrow"
+              "-Xlog:gc*:gc.log"
+              "-XX:+UseZGC"
+              "--add-modules" "jdk.incubator.foreign,jdk.incubator.vector"
+              "--enable-native-access=ALL-UNNAMED"]}}}
